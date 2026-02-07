@@ -1,28 +1,45 @@
 # Cursor Landing Page Clone
 
-This repository contains a **desktop-first landing page clone** inspired by the Cursor AI website.
+This repository contains a **desktop-first clone** of the Cursor AI Code Editor landing page. The goal of this project is to replicate the **layout, structure, and styling** of the original website using only **HTML and CSS**.
 
-## Sections Recreated
-- Navbar
-- Hero section
-- Trusted by logos
-- Feature blocks
-- Feature cards
-- Testimonial
-- Use cases
-- Changelog
-- Team section
-- Final CTA
-- Footer
+---
 
-## Fonts and Colors Used
-- Font: Inter (from Google Fonts)
-- Background: #000000
-- Text: white
-- Buttons: #350c0c and #ff4c4c
-- Feature cards: #161d33
-- Testimonial box: #554949
-- Use-case cards: #181e36
+## 🔹 Project Overview
+
+- Recreated sections:  
+  - Navbar with logo and navigation links  
+  - Hero section with headline, description, and call-to-action button  
+  - Trusted by companies logos  
+  - Feature blocks with images and descriptions  
+  - Feature cards highlighting AI capabilities  
+  - Testimonial section  
+  - Use cases grid  
+  - Changelog updates  
+  - Team section with image and call-to-action  
+  - Final call-to-action  
+  - Footer with product, company, and legal links  
+
+- The project uses a **dark theme** with white text, replicating the modern Cursor aesthetic.  
+- Fully responsive layout designed for desktop-first display.  
+- Fonts used: **Inter** (imported from Google Fonts).  
+- Color palette:  
+  - Background: `#000000` (black)  
+  - Cards: `#161d33`, `#181e36`, `#554949`  
+  - Buttons: `#350c0c` and `#ff4c4c`  
+
+---
+
+## 🔹 How to Use
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/mufaiz21/cursor-clone.git
+2 Open index.html in your browser to view the landing page.
+
+3 All styling is in style.css. Modify this file to customize colors, fonts, and layout.
+
+
+
 - ## Developer
               Developed by **Mufaiz**
 
