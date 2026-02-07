@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cursor — AI Code Editor</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav-flex">
+    <div class="logo">
+      <img src="https://dredyson.com/wp-content/uploads/2025/06/Cursor-AI-1.png" alt="Cursor Logo">
+    </div>
+    <nav class="nav-links">
+      <a href="#">Features</a>
+      <a href="#">Docs</a>
+      <a href="#">Pricing</a>
+      <a href="#" class="btn-nav">Download</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1>The AI Code Editor</h1>
+      <p>Build software faster with AI-powered autocomplete, intelligent refactoring, and instant code understanding.</p>
+      <a href="#" class="btn-primary get-started-btn">Get Started</a>
+    </div>
+    <div class="hero.tw-image">
+      <img src="https://mavtools.com/wp-content/uploads/elementor/thumbs/Cursor.sh-Featured-Image-New-2-qo6qv740jn06g677kvnxd3v787220b0tcjxf71aba4.jpg" alt="Cursor Product Screenshot">
+    </div>
+  </div>
+</section>
+
+<!-- TRUSTED BY -->
+<section class="trusted">
+  <div class="container">
+    <p class="trusted-text">Trusted by developers at</p>
+    <div class="logos">
+      <img src="https://th.bing.com/th/id/OIP.UYTez40eE9v21JPlt_JXUAHaE7?w=268&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Stripe Logo">
+      <img src="https://th.bing.com/th/id/OIP.OSgrxD559IOgjj6br4opMQHaEK?w=307&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Shopify Logo">
+      <img src="https://th.bing.com/th/id/OIP.fqZ9-PPqcG_cm0k3JfoINQHaEK?w=273&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="GitHub Logo">
+      <img src="https://th.bing.com/th/id/OIP.go9KNqSBivz4TyZtx44m5gHaHa?w=157&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Vercel Logo">
+      <img src="data:image/webp;base64,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" alt="Notion Logo">
+    </div>
+  </div>
+</section>
+
+<!-- FEATURE BLOCKS -->
+<section class="feature-blocks">
+  <div class="container">
+
+    <div class="block">
+      <div class="text">
+        <h2>Understand any codebase instantly</h2>
+        <p>Ask questions, explore logic, and navigate large projects with AI assistance.</p>
+      </div>
+      <div class="image">
+        <img src="https://www.sentisight.ai/wp-content/uploads/2025/04/Screenshot-2025-04-11-at-15-44-10-Cursor-The-AI-Code-Editor.png" alt="Understand Code Feature">
+      </div>
+    </div>
+
+    <div class="block reverse">
+      <div class="image">
+        <img src="https://th.bing.com/th/id/OIP.2cmbLOZcNICbxIduwTn5aAHaD4?w=302&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Refactor Code Feature">
+      </div>
+      <div class="text">
+        <h2>Refactor at lightning speed</h2>
+        <p>Safely restructure large codebases without breaking functionality.</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="text">
+        <h2>Fix bugs before they ship</h2>
+        <p>Smart debugging suggestions reduce error resolution time drastically.</p>
+      </div>
+      <div class="image">
+        <img src="https://user-images.githubusercontent.com/4297743/235380904-b2efe56f-4e73-4d6b-82dd-98b414f53687.png" alt="Fix Bugs Feature">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FEATURE CARDS -->
+<section class="features">
+  <div class="container">
+    <h2>Why Cursor?</h2>
+    <p class="subtitle">Built for developers who want speed, accuracy, and intelligence.</p>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>AI Autocomplete</h3>
+        <p>Context-aware intelligent completions.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Refactoring</h3>
+        <p>Clean and safe code restructuring.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Smart Debugging</h3>
+        <p>Find and fix bugs instantly.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Privacy First</h3>
+        <p>Local execution & full control.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial">
+  <div class="container">
+    <div class="testimonial-box">
+      <p>“Cursor feels like coding with a genius teammate.”</p>
+      <span>— Mufaiz</span>
+    </div>
+  </div>
+</section>
+
+<!-- USE CASES -->
+<section class="usecases">
+  <div class="container">
+    <h2>Built for Every Developer</h2>
+    <div class="use-grid">
+      <div class="use-card">Startup Teams</div>
+      <div class="use-card">Open Source</div>
+      <div class="use-card">Students</div>
+      <div class="use-card">Enterprises</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CHANGELOG -->
+<section class="changelog">
+  <div class="container">
+    <h2>Latest Updates</h2>
+    <ul>
+      <li><strong>Jan 2026</strong> — Improved AI code understanding</li>
+      <li><strong>Dec 2025</strong> — Faster autocomplete model</li>
+      <li><strong>Nov 2025</strong> — UI performance optimizations</li>
+    </ul>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="team">
+  <div class="container team-flex">
+    <div class="team-text">
+      <h2>Built by developers, for developers</h2>
+      <p>Cursor is designed by a passionate team focused on productivity and performance.</p>
+      <a href="#" class="btn-primary join-team-btn">Join Our Team</a>
+    </div>
+    <div class="team-image">
+      <img src="https://thumbs.wbm.im/pw/medium/5ff3fc9642a4d8f98e48e4974747ac29.jpg" alt="Team Image">
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="container">
+    <h2>Start building faster today</h2>
+    <a href="#" class="btn-primary">Download Cursor</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Product</h4>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Docs</a>
+    </div>
+
+    <div>
+      <h4>Company</h4>
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+      <a href="#">Blog</a>
+    </div>
+
+    <div>
+      <h4>Legal</h4>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+
+  <p class="footer-bottom">© 2026 Cursor Clone | Developed by <strong>Mufaiz</strong></p>
+</footer>
+
+</body>
+</html>
