@@ -38,10 +38,9 @@ This repository contains a **desktop-first clone** of the Cursor AI Code Editor 
 
 3 All styling is in style.css. Modify this file to customize colors, fonts, and layout.
 
-
-
-- ## Developer
-              Developed by **Mufaiz**
+## screenshot
+https://github.com/Mufaiz21/cursor-clone/blob/main/Screenshot%202026-02-08%20010902.png
+https://thumbs.wbm.im/pw/medium/5ff3fc9642a4d8f98e48e4974747ac29.jpg
 
 ## Developer
 Developed by **Mufaiz**
